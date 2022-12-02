@@ -1,0 +1,8 @@
+.spotify-base-button {
+    @apply bg-amber-300 text-black text-lg rounded-full h-8 w-8;
+}
+
+.album-cover {
+    max-width: 120px;
+    @apply rounded-xl;
+}

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-700 text-neutral-100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slate-btn-lg {
+  @apply text-lg rounded-lg bg-slate-500
+  hover:bg-slate-450
+  disabled:bg-slate-600 disabled:text-slate-400
+}
+
+.svg-solid-btn {
+  @apply fill-white
+  hover:fill-slate-300
+}
+
+.svg-outline-btn {
+  @apply bg-white stroke-slate-700 rounded-full p-2 m-3
+  hover:bg-slate-300
+}

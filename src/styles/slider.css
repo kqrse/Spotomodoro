@@ -1,0 +1,29 @@
+.sliderBase {
+  /* height: 24px;
+  border-radius: 20px */
+  @apply h-6 rounded-full;
+}
+
+.sliderRed {
+  border: 2px solid;
+  @apply border-purple-300
+}
+
+.sliderGreen {
+  border: 2px solid;
+  @apply border-green-300
+}
+
+.thumbBase {
+  margin-top: -6px;
+  cursor: pointer;
+  @apply w-8 h-8 rounded-full;
+}
+
+.thumbRed {
+  @apply bg-purple-300
+}
+
+.thumbGreen {
+  @apply bg-green-300
+}
